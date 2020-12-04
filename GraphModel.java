@@ -1,4 +1,6 @@
-import shapes.*;
+package graphtoolkit;
+
+import graphtoolkit.shapes.*;
 import java.util.*;
 
 public class GraphModel {
@@ -67,7 +69,7 @@ public class GraphModel {
   public ArrayList<Line> getLines () {
     return allLines;
   }
-  
+
   public void clear () {
   	allLines = new ArrayList<Line>();
   	lastPoint = null;

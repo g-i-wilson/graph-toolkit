@@ -1,4 +1,4 @@
-package shapes;
+package graphtoolkit.shapes;
 
 import java.awt.*;
 

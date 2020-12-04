@@ -1,4 +1,5 @@
-package shapes;
+package graphtoolkit.shapes;
+
 import java.awt.Color;
 
 public class Parallelogram extends Trapezoid {

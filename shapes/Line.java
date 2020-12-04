@@ -1,4 +1,5 @@
-package shapes;
+package graphtoolkit.shapes;
+
 
 public class Line {
 

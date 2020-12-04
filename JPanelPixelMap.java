@@ -1,4 +1,6 @@
-import shapes.*;
+package graphtoolkit;
+
+import graphtoolkit.shapes.*;
 import java.util.List;
 import java.awt.geom.*;
 import javax.swing.*;
@@ -12,7 +14,7 @@ public class JPanelPixelMap extends JPanel implements PixelMap {
   private Color backgroundColor;
 
   // constructor
-  public JPanelPixelMap ( int x, int y, Color fc, Color bc ) {
+  public JPanelPixelMap ( int x, int y, Color fc, Color bc, String windowTitle ) {
     // set default foreground color
     foregroundColor = fc;
     // set default background color
@@ -20,7 +22,7 @@ public class JPanelPixelMap extends JPanel implements PixelMap {
     // setBackground() method is inherited from JPanel
     setBackground( backgroundColor );
     // create a JFrame object (window in the OS)
-    window = new JFrame( "Graph Toolkit" );
+    window = new JFrame( windowTitle );
     // set default resolution
     setSize( x, y );
     // set initial window settings

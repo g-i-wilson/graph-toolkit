@@ -1,4 +1,5 @@
-package shapes;
+package graphtoolkit.shapes;
+
 import java.util.*;
 import java.awt.Color;
 

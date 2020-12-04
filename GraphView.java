@@ -1,4 +1,7 @@
-import shapes.*;
+package graphtoolkit;
+
+import graphtoolkit.shapes.*;
+import graphtoolkit.shapes.Point;
 import java.util.*;
 
 public abstract class GraphView {

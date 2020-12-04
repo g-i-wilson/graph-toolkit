@@ -1,4 +1,6 @@
-import shapes.*;
+package graphtoolkit;
+
+import graphtoolkit.shapes.*;
 import java.util.*;
 import java.awt.Color;
 
@@ -10,13 +12,14 @@ public class GraphViewGUI extends GraphView {
 
   // constructor
   // public GraphViewGUI ( GraphModel model, int xSize, int ySize, double xGrid, double yGrid ) {
-  public GraphViewGUI ( GraphModel model, int xSize, int ySize, Color gridColor ) {
+  public GraphViewGUI ( GraphModel model, int xSize, int ySize, Color gridColor, String windowTitle ) {
     super(
       model,
       new JPanelPixelMap(
         xSize, ySize,
         new Color(255,255,0),
-        new Color(0,0,0)
+        new Color(0,0,0),
+        windowTitle
       ),
       xSize, ySize
     );

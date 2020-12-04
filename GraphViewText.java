@@ -1,4 +1,6 @@
-import shapes.*;
+package graphtoolkit;
+
+import graphtoolkit.shapes.*;
 import java.util.*;
 
 public class GraphViewText extends GraphView {

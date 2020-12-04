@@ -1,4 +1,6 @@
-import shapes.*;
+package graphtoolkit;
+
+import graphtoolkit.shapes.*;
 import java.awt.Color;
 
 public class GraphModelShapes extends GraphModel {

@@ -1,5 +1,7 @@
+package graphtoolkit;
+
 import java.util.*;
-import shapes.*;
+import graphtoolkit.shapes.*;
 
 public interface PixelMap {
 
